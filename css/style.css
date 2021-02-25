@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --black: #343434;
+  --red: #FD5363;
+  --orange: #FC7F23;
+  --yellow-strong: #FEC12D;
+  --green: #4FCF6C;
+  --grey: #43444A;
+  --unnamed-color-66dec9: #66DEC9;
+  --unnamed-color-75c6d9: #75C6D9;
+  --unnamed-color-2a98b5: #2A98B5;
+  --unnamed-color-feafad: #FEAFAD;
+  --unnamed-color-9f3dfc: #9F3DFC;
+  --yellow: #FEDA44;
+  --unnamed-color-1b85f7: #1B85F7;
+  --white: #FBF3E6;
+}
+
+html, body {
+  line-height: 1.5;
+  font-family: 'Titillium Web', sans-serif;
+  font: normal 27px Titillium Web;
+
+  color: var(--black);
+  background: #FBF3E6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+
+.topo {
+  /* background-color: red; */
+  padding: 16px;
+  font-size: 1em;
+  font: normal 24px/36px Titillium Web;
+  display: flex;   
+  flex-direction: column;
+  margin: 0 auto;
+  border: transparent;
+  width: 160vh;
+}
+
+.topo p {
+  padding-top: 1em;
+}
+
+.descricao {
+  font: normal 24px Titillium Web;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 398px;
+  height: 398px;
+  text-align: center;
+  margin: 5px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 160vh;
+
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 20px 30px; 
+  width: 220px;
+  height: 75px;
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/*Cores dos eixos*/
+.rosa1 {
+  color: white;
+  background-color: #FD5363;
+}
+
+.rosa1:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.rosa1.active {
+  color: white;
+  background-color: #FD5363;
+}
+
+.laranja2 {
+  color: white;
+  background-color: #FC7F23;
+}
+
+.laranja2:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.laranja2.active {
+  color: white;
+  background-color: #FC7F23;
+}
+
+.amarelo3 {
+  color: black;
+  background-color: #FEC12D;
+}
+
+.amarelo3:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.amarelo3.active {
+  color: black;
+  background-color: #FEC12D;
+}
+
+.verde4 {
+  color: black;
+  background-color: #4FCF6C;
+}
+
+.verde4:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.verde4.active {
+  color: black;
+  background-color: #4FCF6C;
+}
+
+.cinza5 {
+  color: white;
+  background-color: #43444A;
+}
+
+.cinza5:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.cinza5.active {
+  color: white;
+  background-color: #43444A;
+}
+
+.azulclaro6 {
+  color: white;
+  background-color: #66DEC9;
+}
+
+.azulclaro6:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.azulclaro6.active {
+  color: white;
+  background-color: #66DEC9;
+}
+
+.azulmedio7 {
+  color: black;
+  background-color: #75C6D9;
+}
+
+.azulmedio7:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.azulmedio7.active {
+  color: black;
+  background-color: #75C6D9;
+}
+
+.azulescuro8 {
+  color: white;
+  background-color: #2A98B5;
+}
+
+.azulescuro8:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.azulescuro8.active {
+  color: white;
+  background-color: #2A98B5;
+}
+
+.rosa9 {
+  color: black;
+  background-color: #FEAFAD;
+}
+
+.rosa9:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.rosa9.active {
+  color: black;
+  background-color: #FEAFAD;
+}
+
+.roxo10 {
+  color: white;
+  background-color: #9F3DFC;
+}
+
+.roxo10:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.roxo10.active {
+  color: white;
+  background-color: #9F3DFC;
+}
+
+.amareloclaro11 {
+  color: black;
+  background-color: #FEDA44;
+}
+
+.amareloclaro11:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.amareloclaro11.active {
+  color: black;
+  background-color: #FEDA44;
+}
+
+.ultimo12 {
+  color: white;
+  background-color: #1B85F7;
+}
+
+.ultimo12:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.ultimo12.active {
+  color: white;
+  background-color: #1B85F7;
+}
+
+/*fim das cores dos eixos*/
+
+
+.DataPublicacao{
+  font-size: 10px;
+  position: relative;
+  left: -130px;
+  bottom: -10px;
+
+}
+.TituloPublicacao{
+  font-size: 23px;
+  padding: 5px;
+  position: relative;
+  bottom: -120px;
+
+}
+.AutorPublicacao{
+  font-size: 10px;
+  position: relative;
+  bottom: -130px;
+
+}
+.EixoPublicacao{
+  font-size: 10px;
+  position: relative;
+  left: -150px;
+  bottom: -300px;
+
+}
+.TipoPublicacao{
+  font-size: 10px;
+  position: relative;
+  left: 130px;
+  bottom: -280px;
+
+}
+
+.EixoPublicacao2{
+  font-size: 10px;
+  position: relative;
+  left: -150px;
+  bottom: -260px;
+
+}
+.TipoPublicacao2{
+  font-size: 10px;
+  position: relative;
+  left: 130px;
+  bottom: -240px;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+
+}
+
+.flex-container > div {
+  width: 80%;
+  height: 70%;
+  margin: 10px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+section > .container-artigo {
+  margin: 5em;
+  font-size: 93.75%;
+
+}
+
+section > .container-artigo a {
+  border:none;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: var(--black);
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 16%;
+  font: normal 21px Titillium Web;
+  font-size: 81.25%;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+footer img {
+  width: 15vh;
+}
+
+footer .contatos {
+  text-align: left;        
+}
+footer .endereço {
+  text-align: center;
+
+}

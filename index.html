@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
+  <body>
+    <header class="topo">
+      <a href="index.html"><img src="images/logo.png" height="94" width="421"></a>
+
+      <div class="descricao">
+        <p>Um Caso de Arte é um projeto do ITS Rio que busca explorar a interseção entre cultura e direito com exemplos práticos e de forma acessível. Como um acervo de conteúdo com foco em Direito Autoral, queremos compartilhar os aspectos atualizados desse debate.</p>
+      </div> 
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+        <button class="btn rosa1" onclick="filterSelection('eixo1')"> Eixo 1</button>
+        <button class="btn laranja2" onclick="filterSelection('eixo2')"> Eixo 2</button>
+        <button class="btn amarelo3" onclick="filterSelection('eixo3')"> Eixo 3</button>
+        <button class="btn verde4" onclick="filterSelection('eixo4')"> Eixo 4</button>
+        <button class="btn cinza5" onclick="filterSelection('eixo5')"> Eixo 5</button>
+        <button class="btn azulclaro6" onclick="filterSelection('eixo6')"> Eixo 6</button>
+        <button class="btn azulmedio7" onclick="filterSelection('eixo7')"> Eixo 7</button>
+        <button class="btn azulescuro8" onclick="filterSelection('eixo8')"> Eixo 8</button>
+        <button class="btn rosa9" onclick="filterSelection('eixo9')"> Eixo 9</button>
+        <button class="btn roxo10" onclick="filterSelection('eixoDez')"> Eixo 10</button>
+        <button class="btn amareloclaro11" onclick="filterSelection('eixoOnze')"> Eixo 11</button>
+        <button class="btn ultimo12" onclick="filterSelection('eixoDoze')"> Eixo 12</button>
+
+      </div>
+      <div class="descricao">
+        <p>Conteúdos em ordem cronológica:</p>
+      </div> 
+    </header>
+
+    <div class="container">
+      <a href="./Artigos/artigo1.html"><div class="rosa1 filterDiv eixo1">
+        <p class="DataPublicacao">12 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">Introdução ao Projeto</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao">Eixo 1</p>
+        <p class="TipoPublicacao">Artigo</p>  
+
+      </div></a>
+      <a href="./Videos/video1.html"><div class="rosa1 filterDiv eixo1">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 1</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+
+      <div class="rosa1 filterDiv eixo1">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 1</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="laranja2 filterDiv eixo2">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 2</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="laranja2 filterDiv eixo2">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 3</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="amarelo3 filterDiv eixo3">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 3</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="verde4 filterDiv eixo4">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 4</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="cinza5 filterDiv eixo5">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 5</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="azulclaro6 filterDiv eixo6">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 6</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="azulmedio7 filterDiv eixo7">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 7</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="azulescuro8 filterDiv eixo8">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 8</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="rosa9 filterDiv eixo9">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 9</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="roxo10 filterDiv eixoDez">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 10</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="amareloclaro11 filterDiv eixoOnze">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 11</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+      <div class="ultimo12 filterDiv eixoDoze">
+        <p class="DataPublicacao">10 de novembro de 2020</p>
+        <h2 class="TituloPublicacao">O título deste artigo é o seguinte e ele é bem longo</h2>
+        <p class="AutorPublicacao">Por Sérgio Branco</p>
+        <p class="EixoPublicacao2">Eixo 12</p>
+        <p class="TipoPublicacao2">Vídeo</p>
+      </div></a>
+    </div>
+
+    <script type="text/javascript" src="js/filtro.js"></script>
+
+
+    <footer>
+      <div class="flex-container">
+        <div>
+          <a href="https://itsrio.org/pt/home/">
+            <img src="images/ITS_Logos.png">
+          </a>
+        </div>
+
+        <div class="contatos">
+          <p>Contatos</p>
+
+          <a href="mailto:its@itsrio.org">its@itsrio.org </a> |
+          <a href="mailto:imprensa@itsrio.org">imprensa@itsrio.org</a>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="politica">
+
+          &copy; <a href="https://itsrio.org/pt/comunicados/politica-privacidade/" target="blank">Política de privacidade </a>
+
+        </div>
+      </div>
+      <p style="text-align: center; margin-left:30px;">
+        2021 | R. Da Assembléia, 10, 40º andar, sala 4011 — Centro, RJ | whatsapp: (21) 96574-4138
+      </p>
+    </footer>
+
+
+  </body>
+  </html>
