@@ -60,11 +60,20 @@ html, body {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 398px;
-  height: 398px;
+  width: 52vh;
+  height: 54vh;
   text-align: center;
   margin: 5px;
   display: none;
+}
+
+p > .AutorPublicacao{
+  font: normal normal 300 24px/27px Titillium Web;
+  font-size: 18px;
+}
+
+h2 {
+  font: normal normal 600 24px/27px Titillium Web;
 }
 
 .show {
