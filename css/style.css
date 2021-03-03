@@ -382,13 +382,10 @@ h2 {
 .flex-container {
   display: flex;
   justify-content: center;
-  margin-left: 10%;
-
+  flex-flow: column;
 }
 
-.flex-container > div {
-  width: 80%;
-  height: 70%;
+footer .flex-container > div {
   margin: 10px;
   text-align: center;
   line-height: 1.5;
@@ -406,14 +403,11 @@ section > .container-artigo a {
 }
 
 footer {
-  width: 100%;
-  height: 40vh;
   background-color: var(--black);
   color: white;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding-top: 5%;
-  padding-bottom: 16%;
+  padding-bottom: 5%;
   font: normal 21px Titillium Web;
   font-size: 81.25%;
 }
@@ -431,7 +425,7 @@ footer img {
 footer .contatos {
   text-align: left;        
 }
-footer .endereço {
+footer .endereco {
   text-align: center;
 
 }
