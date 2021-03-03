@@ -17,8 +17,9 @@
 
       <div id="myBtnContainer">
         <button class="btn active" onclick="filterSelection('all')"> Todos</button>
-        <button class="btn rosa1" onclick="filterSelection('eixo1')"> Eixo 1</button>
-        <button class="btn laranja2" onclick="filterSelection('eixo2')"> Eixo 2</button>
+        <button class="btn rosa1" onclick="filterSelection('eixo1'); seleciona()"> Eixo 1 <div class="selecao" ></div>
+        </button>
+        <button class="btn laranja2" onclick="filterSelection('eixo2'); seleciona()"> Eixo 2<div class="selecao"></div></button>
         <button class="btn amarelo3" onclick="filterSelection('eixo3')"> Eixo 3</button>
         <button class="btn verde4" onclick="filterSelection('eixo4')"> Eixo 4</button>
         <button class="btn cinza5" onclick="filterSelection('eixo5')"> Eixo 5</button>
@@ -30,9 +31,18 @@
         <button class="btn amareloclaro11" onclick="filterSelection('eixoOnze')"> Eixo 11</button>
         <button class="btn ultimo12" onclick="filterSelection('eixoDoze')"> Eixo 12</button>
 
+<script>
+function seleciona() {
+  document.getElementsByClassName('selecao').innerHTML = "X";
+}
+
+document.getElementById("btn").outerHTML = "";
+
+</script>
+
       </div>
       <div class="descricao">
-        <p>Conteúdos em ordem cronológica:</p>
+        <p>Conteúdo em ordem temática: </p>
       </div> 
     </header>
 
@@ -156,20 +166,25 @@
             <img src="images/ITS_Logos.png">
           </a>
         </div>
+
         <div class="contatos">
           <p>Contatos</p>
 
           <a href="mailto:its@itsrio.org">its@itsrio.org </a> |
           <a href="mailto:imprensa@itsrio.org">imprensa@itsrio.org</a>
         </div>
-        <div class="politica">
-            &copy; <a href="https://itsrio.org/pt/comunicados/politica-privacidade/" target="blank">Política de privacidade </a>
-        </div>
-        <p class="endereco">
-        2021 | R. Da Assembléia, 10, 40º andar, sala 4011 — Centro, RJ | whatsapp: (21) 96574-4138
-        </p>
-     
       </div>
+
+      <div class="flex-container">
+        <div class="politica">
+
+          &copy; <a href="https://itsrio.org/pt/comunicados/politica-privacidade/" target="blank">Política de privacidade </a>
+
+        </div>
+      </div>
+      <p style="text-align: center">
+        2021 | R. Da Assembléia, 10, 40º andar, sala 4011 — Centro, RJ | whatsapp: (21) 96574-4138
+      </p>
     </footer>
 
 
