@@ -532,6 +532,11 @@ p > .TipoPublicacao{
   font-size: 1em;
 }
 
+.video-responsive iframe {
+  height: 660px; 
+  width: 1080px;
+}
+
 section > .container-artigo {
   margin: 4rem;
 
@@ -582,6 +587,32 @@ footer .endereço {
   }
 }
 
+@media only screen and (max-width: 1129px) {
+  .video-responsive iframe {
+    height: 460px; 
+    width: 880px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .video-responsive iframe {
+    height: 400px; 
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .video-responsive iframe {
+    height: 300px; 
+    width: 580px;
+  }
+
+  .topo img{
+    height: 60px; 
+    width: 280px;
+  }
+}
+
 @media only screen and (max-width: 1010px) {
   .topo {
     width: 120vh;
@@ -617,8 +648,21 @@ footer .endereço {
   }
 }
 
+@media only screen and (max-width: 650px) {
+ 
+  .video-responsive iframe {
+    height: 210px; 
+    width: 400px;
+  }
+}
+
 @media only screen and (max-width: 560px) {
   .topo {
     width: 65vh;
+  }
+
+  .video-responsive iframe {
+    height: 210px; 
+    width: 400px;
   }
 }
