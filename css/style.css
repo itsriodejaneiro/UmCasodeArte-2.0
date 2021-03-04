@@ -40,7 +40,7 @@ html, body {
   font: normal 24px/36px Titillium Web;
   display: flex;   
   flex-direction: column;
-  margin: 0 auto;
+  margin-left: 3%;
   border: transparent;
   width: 160vh;
   padding-top: 1.5rem;
@@ -87,9 +87,11 @@ h2 {
 }
 
 .container {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 160vh;
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 3%;
+ width: 97%;
+
 }
 
 /* Style the buttons */
@@ -122,329 +124,329 @@ h2 {
   background-color: transparent;
   border: 1px solid #707070;
   color:var(--grey);
-}*/
+  }*/
 
-.selecao {
-  float: right;
-  transition: none;
-}
+  .selecao {
+    float: right;
+    transition: none;
+  }
 
-/*Cores dos eixos*/
-.rosa1 {
-  color: white;
-  background-color: #FD5363;
-}
+  /*Cores dos eixos*/
+  .rosa1 {
+    color: white;
+    background-color: #FD5363;
+  }
 
-.rosa1:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .rosa1:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.rosa1fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .rosa1fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.rosa1.active {
-  color: white;
-  background-color: #FD5363;
-}
+  .rosa1.active {
+    color: white;
+    background-color: #FD5363;
+  }
 
-.laranja2 {
-  color: white;
-  background-color: #FC7F23;
-}
+  .laranja2 {
+    color: white;
+    background-color: #FC7F23;
+  }
 
-.laranja2:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .laranja2:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.laranja2fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .laranja2fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.laranja2.active {
-  color: white;
-  background-color: #FC7F23;
-}
+  .laranja2.active {
+    color: white;
+    background-color: #FC7F23;
+  }
 
-.amarelo3 {
-  color: black;
-  background-color: #FEC12D;
-}
+  .amarelo3 {
+    color: black;
+    background-color: #FEC12D;
+  }
 
-.amarelo3:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .amarelo3:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.amarelo3fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .amarelo3fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.amarelo3.active {
-  color: black;
-  background-color: #FEC12D;
-}
+  .amarelo3.active {
+    color: black;
+    background-color: #FEC12D;
+  }
 
-.verde4 {
-  color: black;
-  background-color: #4FCF6C;
-}
+  .verde4 {
+    color: black;
+    background-color: #4FCF6C;
+  }
 
-.verde4:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .verde4:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.verde4fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .verde4fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.verde4.active {
-  color: black;
-  background-color: #4FCF6C;
-}
+  .verde4.active {
+    color: black;
+    background-color: #4FCF6C;
+  }
 
-.cinza5 {
-  color: white;
-  background-color: #43444A;
-}
+  .cinza5 {
+    color: white;
+    background-color: #43444A;
+  }
 
-.cinza5:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .cinza5:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.cinza5fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-
-.cinza5.active {
-  color: white;
-  background-color: #43444A;
-}
-
-.azulclaro6 {
-  color: white;
-  background-color: #66DEC9;
-}
-
-.azulclaro6:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.azulclaro6fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.azulclaro6.active {
-  color: white;
-  background-color: #66DEC9;
-}
-
-.azulmedio7 {
-  color: black;
-  background-color: #75C6D9;
-}
-
-.azulmedio7:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.azulmedio7fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.azulmedio7.active {
-  color: black;
-  background-color: #75C6D9;
-}
-
-.azulescuro8 {
-  color: white;
-  background-color: #2A98B5;
-}
-
-.azulescuro8:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.azulescuro8fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.azulescuro8.active {
-  color: white;
-  background-color: #2A98B5;
-}
-
-.rosa9 {
-  color: black;
-  background-color: #FEAFAD;
-}
-
-.rosa9:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
-.rosa9fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .cinza5fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
 
-.rosa9.active {
-  color: black;
-  background-color: #FEAFAD;
-}
+  .cinza5.active {
+    color: white;
+    background-color: #43444A;
+  }
 
-.roxo10 {
-  color: white;
-  background-color: #9F3DFC;
-}
+  .azulclaro6 {
+    color: white;
+    background-color: #66DEC9;
+  }
 
-.roxo10:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .azulclaro6:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.roxo10fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .azulclaro6fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.roxo10.active {
-  color: white;
-  background-color: #9F3DFC;
-}
+  .azulclaro6.active {
+    color: white;
+    background-color: #66DEC9;
+  }
 
-.amareloclaro11 {
-  color: black;
-  background-color: #FEDA44;
-}
+  .azulmedio7 {
+    color: black;
+    background-color: #75C6D9;
+  }
 
-.amareloclaro11:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .azulmedio7:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.amareloclaro11fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .azulmedio7fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.amareloclaro11.active {
-  color: black;
-  background-color: #FEDA44;
-}
+  .azulmedio7.active {
+    color: black;
+    background-color: #75C6D9;
+  }
 
-.ultimo12 {
-  color: white;
-  background-color: #1B85F7;
-}
+  .azulescuro8 {
+    color: white;
+    background-color: #2A98B5;
+  }
 
-.ultimo12:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .azulescuro8:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.ultimo12fundo:hover {
-  padding: 10px 30px;
-  border: 1px solid #707070;
-  background-color: #666;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
+  .azulescuro8fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
 
-.ultimo12.active {
-  color: white;
-  background-color: #1B85F7;
-}
+  .azulescuro8.active {
+    color: white;
+    background-color: #2A98B5;
+  }
 
-/*fim das cores dos eixos*/
+  .rosa9 {
+    color: black;
+    background-color: #FEAFAD;
+  }
+
+  .rosa9:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .rosa9fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+
+  .rosa9.active {
+    color: black;
+    background-color: #FEAFAD;
+  }
+
+  .roxo10 {
+    color: white;
+    background-color: #9F3DFC;
+  }
+
+  .roxo10:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .roxo10fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .roxo10.active {
+    color: white;
+    background-color: #9F3DFC;
+  }
+
+  .amareloclaro11 {
+    color: black;
+    background-color: #FEDA44;
+  }
+
+  .amareloclaro11:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .amareloclaro11fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .amareloclaro11.active {
+    color: black;
+    background-color: #FEDA44;
+  }
+
+  .ultimo12 {
+    color: white;
+    background-color: #1B85F7;
+  }
+
+  .ultimo12:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .ultimo12fundo:hover {
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    background-color: #666;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+
+  .ultimo12.active {
+    color: white;
+    background-color: #1B85F7;
+  }
+
+  /*fim das cores dos eixos*/
 
 /* Tentativa de organização de elementos dentro do card, não consegui colocar de forma responsiva com o zoom da página
 
