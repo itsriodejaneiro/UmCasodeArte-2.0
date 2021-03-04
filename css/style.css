@@ -46,6 +46,11 @@ html, body {
   padding-top: 1.5rem;
 }
 
+.topo img{
+  height: 94px; 
+  width: 421px;
+}
+
 .topo a {
   text-decoration: underline; 
   color: var(--grey);
@@ -567,4 +572,53 @@ footer .endereço {
 .footer p{
   text-align: center;
   margin-left:30px;
+}
+
+/*media query*/
+
+@media only screen and (max-width: 1056px) {
+  .topo {
+    width: 150vh;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .topo {
+    width: 120vh;
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .topo {
+    width: 100vh;
+  }
+}
+
+@media (max-width: 679px) {
+  .topo {
+    width: 80vh;
+    font-size: 0.5em;
+    font: normal 12px/18px Titillium Web;
+  }
+
+  .topo img{
+    height: 60px; 
+    width: 280px;
+  }
+
+  .descricao{
+    font-size: 0.8em;
+    font: normal 16px/22px Titillium Web;
+  }
+
+  .btn{
+    width: 8em;
+    height: 3em;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .topo {
+    width: 65vh;
+  }
 }
