@@ -66,8 +66,8 @@ html, body {
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 52vh;
-  height: 54vh;
+  width: 398px;
+  height: 398px;
   text-align: center;
   margin: 5px;
   display: none;
@@ -140,6 +140,14 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.rosa1fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
 .rosa1.active {
   color: white;
   background-color: #FD5363;
@@ -151,6 +159,14 @@ h2 {
 }
 
 .laranja2:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.laranja2fundo:hover {
   padding: 10px 30px;
   border: 1px solid #707070;
   background-color: #666;
@@ -176,6 +192,14 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.amarelo3fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
 .amarelo3.active {
   color: black;
   background-color: #FEC12D;
@@ -187,6 +211,14 @@ h2 {
 }
 
 .verde4:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.verde4fundo:hover {
   padding: 10px 30px;
   border: 1px solid #707070;
   background-color: #666;
@@ -212,6 +244,15 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.cinza5fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+
 .cinza5.active {
   color: white;
   background-color: #43444A;
@@ -223,6 +264,14 @@ h2 {
 }
 
 .azulclaro6:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.azulclaro6fundo:hover {
   padding: 10px 30px;
   border: 1px solid #707070;
   background-color: #666;
@@ -248,6 +297,14 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.azulmedio7fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
 .azulmedio7.active {
   color: black;
   background-color: #75C6D9;
@@ -259,6 +316,14 @@ h2 {
 }
 
 .azulescuro8:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.azulescuro8fundo:hover {
   padding: 10px 30px;
   border: 1px solid #707070;
   background-color: #666;
@@ -284,6 +349,15 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.rosa9fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+
 .rosa9.active {
   color: black;
   background-color: #FEAFAD;
@@ -295,6 +369,14 @@ h2 {
 }
 
 .roxo10:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.roxo10fundo:hover {
   padding: 10px 30px;
   border: 1px solid #707070;
   background-color: #666;
@@ -320,6 +402,14 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.amareloclaro11fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
 .amareloclaro11.active {
   color: black;
   background-color: #FEDA44;
@@ -338,6 +428,14 @@ h2 {
   transition: 0.4s ease-in-out;
 }
 
+.ultimo12fundo:hover {
+  padding: 10px 30px;
+  border: 1px solid #707070;
+  background-color: #666;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
 .ultimo12.active {
   color: white;
   background-color: #1B85F7;
@@ -345,12 +443,13 @@ h2 {
 
 /*fim das cores dos eixos*/
 
+/* Tentativa de organização de elementos dentro do card, não consegui colocar de forma responsiva com o zoom da página
 
 .DataPublicacao{
   font-size: 10px;
-  position: relative;
-  left: -110px;
-  bottom: -10px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
 
 }
 .TituloPublicacao{
@@ -360,25 +459,36 @@ h2 {
   bottom: -120px;
 
 }
+p > .AutorPublicacao{
+  position: absolute;
+  text-align: center;
+}
+
 .AutorPublicacao{
   font-size: 10px;
-  position: relative;
-  bottom: -130px;
+  margin-top: 130px;
+}
+
+p > .EixoPublicacao{
+  position: absolute;
 
 }
+
 .EixoPublicacao{
   font-size: 10px;
-  position: relative;
-  left: -150px;
-  bottom: -260px;
-
+  text-align: left !important; 
+  margin-left: 15px;
+  margin-top: 120px;
 }
+
+p > .TipoPublicacao{
+  position: absolute;
+}
+
 .TipoPublicacao{
   font-size: 10px;
-  position: relative;
-  left: 130px;
-  bottom: -240px;
-
+  text-align: right !important;  
+  margin-right: 15px;
 }
 
 .EixoPublicacao2{
@@ -395,7 +505,7 @@ h2 {
   bottom: -210px;
 
 }
-
+*/
 .flex-container {
   display: flex;
   justify-content: center;
